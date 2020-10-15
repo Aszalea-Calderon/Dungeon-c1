@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+*{
+  /* border: solid tomato 1px; */
+  font-family: 'Press Start 2P', cursive;
+
+}
+.entrance{
+  background-image:url('/images/intro-2.jpg' );
+  background-size: 100%;
+  color:white;
+  display: flex;
+ height: 90vh;
+ padding-top:3%;
+ flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cave1{
+  background-image:url('/images/cave2.jpg');
+  background-position: center;
+  background-image: 100%;
+  color:white;
+  display: flex;
+ height: 90vh;
+ padding-top:3%;
+ flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.textCenter{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+ 
+}
+a{
+  text-decoration: none;
+}
+/* @-webkit-keyframes bob{
+  0%{
+    -webkit-transform(-8px);
+  }
+  /* -webkit-animation:bob 1.5s infinite ; }*/
+ 
